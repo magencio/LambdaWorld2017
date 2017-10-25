@@ -16,8 +16,8 @@
 /SWAPISDK-Initial/FunctionalLib/obj
 /SWAPISDK-Initial/SWAPISDK/bin
 /SWAPISDK-Initial/SWAPISDK/obj
-/SWAPISDK-Initial/SWAPISDKTest
-/SWAPISDK-Initial/SWAPISDKTest
+/SWAPISDK-Initial/SWAPISDKTest/bin
+/SWAPISDK-Initial/SWAPISDKTest/obj
 /SWAPISDK-Final/.vs
 /SWAPISDK-Final/.vscode
 /SWAPISDK-Final/FunctionalLib/bin
@@ -32,5 +32,5 @@
 /SWAPISDK-All/FunctionalLib/obj
 /SWAPISDK-All/SWAPISDK/bin
 /SWAPISDK-All/SWAPISDK/obj
-/SWAPISDK-All/SWAPISDKTest
-/SWAPISDK-All/SWAPISDKTest
+/SWAPISDK-All/SWAPISDKTest/bin
+/SWAPISDK-All/SWAPISDKTest/obj
