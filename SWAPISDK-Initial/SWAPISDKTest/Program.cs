@@ -2,6 +2,7 @@
 using SWAPISDK;
 using SWAPISDK.Entities;
 using SWAPISDK.Extensions;
+using SWAPISDKTest.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
