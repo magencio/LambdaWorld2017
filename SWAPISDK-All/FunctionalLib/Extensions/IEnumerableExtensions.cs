@@ -8,12 +8,13 @@ namespace FunctionalLib.Extensions
         // TODO:
         // - Extension method ForEach
         // - Functions as parameters
+        // - Throw expressions
         // - nameof expressions
 
         // public static void ForEach<T>(this IEnumerable<T> list, Action<T> action)
         // {
-        //     if (list == null) throw new ArgumentNullException(nameof(list));
-        //     if (action == null) throw new ArgumentNullException(nameof(action));
+        //     list = list ?? throw new ArgumentNullException(nameof(list));
+        //     action = action ?? throw new ArgumentNullException(nameof(action));
 
         //     foreach (var item in list) action(item);
         // }
@@ -22,13 +23,14 @@ namespace FunctionalLib.Extensions
         // - Extension method TakeUntilIncluding
         // - Functions as parameters
         // - Local function
+        // - Throw expressions
         // - nameof expressions
         // - Lazy listings with Iterators (yield)
 
         // public static IEnumerable<T> TakeUntilIncluding<T>(this IEnumerable<T> list, Func<T, bool> condition)
         // {
-        //     if (list == null) throw new ArgumentNullException(nameof(list));
-        //     if (condition == null) throw new ArgumentNullException(nameof(condition));
+        //     list = list ?? throw new ArgumentNullException(nameof(list));
+        //     condition = condition ?? throw new ArgumentNullException(nameof(action));
         //     return Iterator();
 
         //     IEnumerable<T> Iterator()

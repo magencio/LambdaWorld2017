@@ -7,13 +7,15 @@ namespace FunctionalLib.Extensions
     {
         // TODO:
         // - Extension method ForEach
-        // - Functions as parameters
+        // - Functions as parameters        
+        // - Throw expressions
         // - nameof expressions
 
         // TODO:
         // - Extension method TakeUntilIncluding 
         // - Functions as parameters
         // - Local function
+        // - Throw expressions        
         // - nameof expressions
         // - Lazy listings with Iterators (yield)
     }
