@@ -30,7 +30,7 @@ namespace FunctionalLib.Extensions
         // public static IEnumerable<T> TakeUntilIncluding<T>(this IEnumerable<T> list, Func<T, bool> condition)
         // {
         //     list = list ?? throw new ArgumentNullException(nameof(list));
-        //     condition = condition ?? throw new ArgumentNullException(nameof(action));
+        //     condition = condition ?? throw new ArgumentNullException(nameof(condition));
         //     return Iterator();
 
         //     IEnumerable<T> Iterator()
