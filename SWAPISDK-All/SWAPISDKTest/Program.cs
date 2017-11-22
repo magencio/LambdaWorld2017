@@ -127,7 +127,10 @@ namespace SWAPISDKTest
                 }
 
                 // var film = swapi.GetFilms(query: "a new hope").First();
-                // swapi.GetPeople(int.MaxValue).Where(person => person.Films.Contains(film.Url)).Show();
+                // swapi
+                //     .GetPeople(int.MaxValue)
+                //     .Where(person => person.Films.Contains(film.Url))
+                //     .Show();
 
                 // Parse the url of an API call
                 // TODO: 

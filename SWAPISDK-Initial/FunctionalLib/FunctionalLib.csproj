@@ -4,12 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
-  <PropertyGroup>
-    <LangVersion>5.0</LangVersion>
-  </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
   </ItemGroup>
+
+  <PropertyGroup>
+    <LangVersion>5.0</LangVersion>
+  </PropertyGroup>
 
 </Project>

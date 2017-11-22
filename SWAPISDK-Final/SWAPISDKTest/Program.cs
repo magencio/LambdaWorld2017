@@ -35,7 +35,10 @@ namespace SWAPISDKTest
 
                 // Find all people in a specific movie
                 var film = swapi.GetFilms(query: "a new hope").First();
-                swapi.GetPeople(int.MaxValue).Where(person => person.Films.Contains(film.Url)).Show();
+                swapi
+                    .GetPeople(int.MaxValue)
+                    .Where(person => person.Films.Contains(film.Url))
+                    .Show();
 
                 // Parse the url of an API call
                 var (api, id) = "https://swapi.co/api/species/5/".GetApiAndId();

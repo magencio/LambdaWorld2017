@@ -14,9 +14,9 @@ namespace SWAPISDKTest.Extensions
         // - Interpolated strings
         // - nameof expressions
 
-        // public static void Show<T>(this T item) where T : Entity
+        // public static void Show<T>(this T entity) where T : Entity
         // {
-        //     switch(item)
+        //     switch(entity)
         //     {
         //         case Person person:
         //             Console.WriteLine($"[{nameof(Person)}] {person.Name}");
@@ -40,7 +40,7 @@ namespace SWAPISDKTest.Extensions
         //             Console.WriteLine($"[{nameof(Starship)}] {starship.Name}");
         //             break;   
         //         default:
-        //             throw new ArgumentException(nameof(item));             
+        //             throw new ArgumentException(nameof(entity));             
         //     }
         // }
         
@@ -50,7 +50,7 @@ namespace SWAPISDKTest.Extensions
         // - Extension method ForEach
         // - Expression-bodied member
 
-        // public static void Show<T>(this IEnumerable<T> items) where T : Entity
-        //     => items.ForEach(Show);
+        // public static void Show<T>(this IEnumerable<T> entities) where T : Entity
+        //     => entities.ForEach(Show);
     }
 }

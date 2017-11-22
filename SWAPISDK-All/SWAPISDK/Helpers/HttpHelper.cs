@@ -36,7 +36,12 @@ namespace SWAPISDK.Helpers
         //     using (HttpClient httpClient = new HttpClient())
         //     using (HttpResponseMessage response = await httpClient.GetAsync(query))
         //     {
-        //         return await response.EnsureSuccessStatusCode().Content.ReadAsStringAsync().DeserializeAsync<T>();
+        //         return await 
+        //             response
+        //             .EnsureSuccessStatusCode()
+        //             .Content
+        //             .ReadAsStringAsync()
+        //             .DeserializeAsync<T>();            
         //     }
         // }
 

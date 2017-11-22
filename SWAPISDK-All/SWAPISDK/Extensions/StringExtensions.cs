@@ -53,6 +53,10 @@ namespace SWAPISDK.Extensions
             }
         }
 
+        // // Valid url: https://swapi.co/api/{api}/{id}/
+        // public static (string api, int id) GetApiAndId(this string entityUrl)
+        //     => entityUrl.ToUri().GetPathFragments().GetApiAndId();
+
         // private static Uri ToUri(this string entityUrl)
         //     => (entityUrl != null)
         //         ? (new Uri(entityUrl) is var uri && uri.Authority.Equals("swapi.co"))
@@ -74,9 +78,5 @@ namespace SWAPISDK.Extensions
                 
         // private static (string api, int id) GetApiAndId(this string[] pathFragments)
         //     => (api: pathFragments[1], id: pathFragments[2].ToEntityId());
-
-        // // Valid url: https://swapi.co/api/{api}/{id}/
-        // public static (string api, int id) GetApiAndId(this string entityUrl)
-        //     => entityUrl.ToUri().GetPathFragments().GetApiAndId();
     }
 }
